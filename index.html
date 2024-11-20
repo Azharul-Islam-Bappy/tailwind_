@@ -4,10 +4,39 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Creative4U</title>
-  <link rel="stylesheet" href="./dist/style.css"
+  <link rel="stylesheet" href="./dist/nav.css">
+  <script src="https://kit.fontawesome.com/bc5071f62b.js" crossorigin="anonymous"></script>
+  
 </head>
 <body>
+  <header  class="py-[1rem] px-[0.8rem] flex justify-between items-center sticky top-0 z-10">
+    <img id="logo" class="w-[8rem]" src="images/c4u_logo.png">
+    <button id="menu-toggle" class="border-0 outline-0 order-last lg:hidden"><i class="fa-solid fa-bars text-2xl"></i></button>
     
+    <button  id="btn_" class="rounded-2xl px-[0.8rem] py-[0.5rem] bg-[#fa8822] hidden">Register Interest</button>
+    <nav id="nav-menu" class="hidden fixed top-0 left-0 z-50 lg:relative lg:flex lg:w-auto lg:h-auto w-[96%] h-screen pt-[1rem] mt-1.5 transition-all order-last lg:order-2">
+      <ul class="flex flex-col lg:flex-row lg:gap-[6] justify-between gap-[0.8rem] text-2xl font-light">
+        <div class="px-[1rem] flex justify-between items-center gap-1.5 mb-[1.2rem] lg:hidden">
+          <img class=" w-[8rem]" src="images/c4u_logo.png">
+          <i id="close-menu" class="fa-solid fa-xmark text-3xl"></i>
+        </div>
+        <li class="px-[1.2rem]"><a href="#">Home</a></li>
+        <li class="px-[1.2rem]"><a href="#">About Us</a></li>
+        <li class="px-[1.2rem] text-[#fa8822]"><a href="#">Skills</a></li>
+        <li class="px-[1.2rem]"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <i class="fa-solid fa-moon w-[1.3rem] order-2 lg:order-last"></i>
+  </header>
+  
+  <main>
     
+  </main>
+  
+  <footer>
+    
+  </footer>
+  
+  <script src="scripts/navbar.js"></script>
 </body>
 </html>
